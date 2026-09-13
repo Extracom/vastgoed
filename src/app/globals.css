@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  /* Basis: warm gebroken wit, grafiet tekst */
+  --color-offwhite: #faf7f1;
+  --color-paper: #f4f0e7;
+  --color-graphite: #23231f;
+  --color-muted: #6b675e;
+
+  /* Hoofdkleur: diep petrol; accent: gedempt messing (spaarzaam) */
+  --color-petrol: #14454c;
+  --color-petrol-dark: #0e3238;
+  --color-brass: #a98b5f;
+
+  --color-line: #e4dfd4;
+
+  --font-serif: var(--font-fraunces), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-offwhite);
+  color: var(--color-graphite);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+}
